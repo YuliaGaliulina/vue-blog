@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <v-toolbar color="primary"></v-toolbar>
     <router-view/>
   </div>
 </template>
@@ -10,13 +11,11 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="sass">
+  @import url('https://fonts.googleapis.com/css?family=Roboto')
+  #app
+    font-family: "Roboto"
+  .toolbar
+    margin-bottom: 2rem
+
 </style>
