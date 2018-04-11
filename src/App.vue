@@ -13,9 +13,13 @@ export default {
 
 <style lang="sass">
   @import url('https://fonts.googleapis.com/css?family=Roboto')
+
   #app
     font-family: "Roboto"
+
   .toolbar
     margin-bottom: 2rem
 
+  a
+    text-decoration: none
 </style>

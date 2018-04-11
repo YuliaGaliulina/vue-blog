@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import List from '../components/list.vue';
-import Detail from '../components/detail.vue';
+import Article from '../components/article.vue';
 
 Vue.use(Router);
 
@@ -12,8 +12,9 @@ export default new Router({
       component: List
     },
     {
-      path: '/detail/:id',
-      component: Detail
+      path: '/article/:id',
+      component: Article,
+      name: 'article'
     }
   ]
 });
